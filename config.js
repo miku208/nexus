@@ -1,7 +1,7 @@
 // Konfigurasi Turnamen Miku Store
 const tournamentConfig = {
     // Waktu berakhir registrasi turnamen (Format: YYYY-MM-DDTHH:MM:SS)
-    endTime: "2026-04-18T20:00:00",
+    endTime: "2090-04-18T20:00:00",
     
     // Informasi Turnamen
     tournamentInfo: {
