@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="description" content="Nexus Games - Turnamen FT harian dengan hadiah real money">
+    <title>Nexus Games - FT Free-Fire</title>
+    
+    <!-- Favicon (local) -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
+    
+    <!-- Google Fonts (online) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome (online) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Local Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <span class="logo-text">Nexus<span class="gradient-text">Games</span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#tournament" class="nav-link">FT</a></li>
+                <li><a href="#payment" class="nav-link">Pembayaran</a></li>
+                <li><a href="#contact" class="nav-link">Kontak</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero / Banner Video Section -->
+        <section id="home" class="hero-banner">
+            <div class="video-banner-container">
+                <!-- Background blur layer untuk mengisi ruang kosong -->
+                <div class="video-background-blur"></div>
+                
+                <!-- Video utama dengan object-fit contain -->
+                <video autoplay muted loop playsinline class="banner-video" id="heroVideo">
+                    <source src="banner.mp4" type="video/mp4">
+                    <!-- Fallback jika video tidak bisa dimuat -->
+                    <div class="video-fallback">Video tidak dapat diputar</div>
+                </video>
+                
+                <!-- Overlay gradient untuk teks lebih terbaca -->
+                <div class="video-overlay-gradient"></div>
+                
+                <!-- Konten di atas video -->
+                <div class="banner-content">
+                    <div class="container banner-container">
+                        <div class="hero-badge">
+                            <i class="fas fa-fire"></i> HOT FT
+                        </div>
+                        <h1 class="hero-title">
+                            Nexus <span class="glow-text">Games</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                             FT harian dengan hadiah real money<br>
+                            Join sekarang dan buktikan kemampuanmu!
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#tournament" class="btn btn-primary btn-glow">
+                                <i class="fas fa-trophy"></i> Join Turnamen
+                            </a>
+                            <a href="https://chat.whatsapp.com/IxBvkYFIsa1LwR1XUPdK8L?mode=gi_t" target="_blank" class="btn btn-outline">
+                                <i class="fab fa-whatsapp"></i> Masuk Grup WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Kenapa Harus <span class="gradient-text">Nexus Games?</span></h2>
+                    <p>Layanan terbaik untuk para gamer sejati</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3>FT Harian</h3>
+                        <p>Setiap hari ada ft baru dengan sistem fair play</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-money-bill-wave"></i>
+                        </div>
+                        <h3>Hadiah Real Money</h3>
+                        <p>Hadiah langsung cair via DANA setelah turnamen selesai</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-qrcode"></i>
+                        </div>
+                        <h3>QRIS</h3>
+                        <p>Pembayaran mudah dan cepat via QRIS</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3>Admin Aktif 24 Jam</h3>
+                        <p>Admin siap membantu kapanpun kamu butuh bantuan</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tournament Section -->
+        <section id="tournament" class="tournament">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Free-Fire<span class="gradient-text">TURNAMEN</span></h2>
+                    <p>Daftar sekarang dan raih kemenanganmu!</p>
+                </div>
+                <div class="tournament-wrapper">
+                    <div class="tournament-card">
+                        <div class="tournament-header">
+                            <div class="tournament-icon">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                            <h3>TURNAMEN FREE FIRE</h3>
+                            <div class="tournament-badge">MINGGUAN</div>
+                        </div>
+                        
+                        <div class="tournament-details">
+                            <div class="detail-item">
+                                <i class="fas fa-ticket-alt"></i>
+                                <span>Entry Fee</span>
+                                <strong>10k</strong>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-users"></i>
+                                <span>Slot Tim</span>
+                                <strong>8</strong>
+                            </div>
+                        </div>
+
+
+                        <div class="countdown-section">
+                            <p><i class="fas fa-clock"></i> Waktu Registrasi Berakhir:</p>
+                            <div class="countdown-timer" id="countdownTimer">
+                                <div class="time-card">
+                                    <span id="days">00</span>
+                                    <label>Hari</label>
+                                </div>
+                                <div class="time-card">
+                                    <span id="hours">00</span>
+                                    <label>Jam</label>
+                                </div>
+                                <div class="time-card">
+                                    <span id="minutes">00</span>
+                                    <label>Menit</label>
+                                </div>
+                                <div class="time-card">
+                                    <span id="seconds">00</span>
+                                    <label>Detik</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-text">
+                            <i class="fas fa-lock"></i>
+                            <p>Info fee dan hadiah akan diinfokan via WhatsApp</p>
+                        </div>
+
+                        <a href="https://chat.whatsapp.com/IxBvkYFIsa1LwR1XUPdK8L?mode=gi_t" target="_blank" class="btn btn-primary btn-full btn-glow">
+                            <i class="fab fa-whatsapp"></i> Daftar Via WhatsApp
+                        </a>
+                    </div>
+
+                    <div class="tournament-info-card">
+                        <div class="info-item">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Sistem Fair Play</h4>
+                                <p>Menggunakan sistem yang adil dan transparan</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-wallet"></i>
+                            <div>
+                                <h4>Hadiah Langsung Cair</h4>
+                                <p>Hadiah akan langsung ditransfer setelah turnamen selesai</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-question-circle"></i>
+                            <div>
+                                <h4>Info Fee & Hadiah</h4>
+                                <p>Hubungi admin untuk info lengkap</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Payment Section -->
+        <!-- Payment Section -->
+<section id="payment" class="payment">
+    <div class="container">
+        <div class="section-header">
+            <h2>Metode <span class="gradient-text">Pembayaran</span></h2>
+            <p>Mudah, cepat, dan aman</p>
+        </div>
+        <div class="payment-wrapper">
+            <div class="payment-card qris-card">
+                <div class="card-icon">
+                    <i class="fas fa-qrcode"></i>
+                </div>
+                <h3>Scan QRIS</h3>
+                <div class="qris-placeholder" id="qrisPlaceholder">
+                    <img src="hhhhhhhh" alt="QRIS Code" class="qris-image" id="qrisImage">
+                    <p class="demo-text">Scan QR Code untuk membayar</p>
+                </div>
+                <button id="downloadQRBtn" class="btn btn-secondary">
+                    <i class="fas fa-download"></i> Download QR
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Apa Kata <span class="gradient-text">Mereka?</span></h2>
+                    <p>Pengalaman dari para pemenang turnamen kami</p>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Turnamennya seru banget! Lawan-lawan tangguh, panitia fast respon. Juara 1 langsung cair. Recommended banget!"</p>
+                        <h4>-Vinnn</h4>
+                        <span class="winner-badge">Winner Tournament</span>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Baru pertama ikutan langsung juara 2. Proses pendaftaran mudah lewat WA, admin ramah banget. Next week join lagi deh!"</p>
+                        <h4>-Dinzzz</h4>
+                        <span class="winner-badge">Runner Up</span>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-avatar">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Turnamennya fair banget, gak ada kecurangan. Hadiah cepat cair, cuma 5 menit setelah turnamen selesai langsung masuk DANA. Mantap!"</p>
+                        <h4>-dapzzz</h4>
+                        <span class="winner-badge">3x Winner</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-wrapper">
+                    <h2>Siap Menjadi <span class="glow-text">Pemenang?</span></h2>
+                    <p>Daftar sekarang dan raih kemenanganmu!</p>
+                    <div class="cta-buttons">
+                        <a href="#tournament" class="btn btn-primary btn-large btn-glow">
+                            <i class="fas fa-trophy"></i> Gabung Turnamen Sekarang
+                        </a>
+                        <a href="https://wa.me/6285189063747" target="_blank" class="btn btn-outline btn-large">
+                            <i class="fab fa-whatsapp"></i> Chat WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <i class="fas fa-gamepad"></i>
+                        <span>Nexus<span class="gradient-text">Games</span></span>
+                    </div>
+                    <p>Platform turnamen FT terpercaya dengan hadiah real money.</p>
+                    <div class="social-links">
+                        <a href="https://chat.whatsapp.com/IxBvkYFIsa1LwR1XUPdK8L?mode=gi_t" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-discord"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Menu</h4>
+                    <a href="#home">Home</a>
+                    <a href="#tournament">Turnamen</a>
+                    <a href="#payment">Pembayaran</a>
+                    <a href="#contact">Kontak</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Kontak</h4>
+                    <a href="https://wa.me/6285189063747" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    <a href="#"><i class="fas fa-envelope"></i> nexus01872@gmail.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nexus Games.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
